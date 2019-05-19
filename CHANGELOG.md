@@ -1,6 +1,7 @@
 ## v0.4.0
 - Massive efficiency improvements.  
-    - List speedup improvements
+    - For the slowest alignments, tests indicated that the algorithms ran over
+      5x faster than v0.3.0
     - Line deletions and insertions are no longer based on cursor movements,
       instead, we are dealing directly with the text buffer.  
     - Many trivial functions have been removed and the code inside of them has
