@@ -7,7 +7,10 @@
     - Many trivial functions have been removed and the code inside of them has
       been moved to the calling functions, to reduce trivially passing items
       around.
-    - Justified algorithm ??
+    - The justify algorithm now more evenly distributes leftover spaces,
+      resulting in a more symmetric justification.  It is still not perfect, but
+      this will never be entirely perfect, as we are dealing in fixed-width
+      space characters
 - Major code cleanup
 
 ## v0.3.0
