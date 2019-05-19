@@ -52,6 +52,7 @@ the editor and the Preferred Line Length setting.
   JavaScript, so I'm sure there are places where improvements can be made to
   speed up the code.  I absolutely welcome any pull requests that might lead to
   more efficient solutions.
+- Don't select text if it wasn't adjusted (too long or 0 length)
 
 ## Notes:
 
