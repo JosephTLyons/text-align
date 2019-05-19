@@ -1,17 +1,21 @@
 ## v0.4.0
-- Massive efficiency improvements.  
-    - All alignments run 5x - 8x faster than the previous release, this is more
-      obvious on larger files.
+- Massive efficiency improvements.  All alignments run 5x - 8x faster than the
+  previous release, this is more obvious on larger files.
     - Line deletions and insertions are no longer based on cursor movements,
-      instead, we are dealing directly with the text buffer.  
+      instead, we are dealing with the text buffer.  
     - Many trivial functions have been removed and the code inside of them has
       been moved to the calling functions, to reduce trivially passing items
       around.
-    - The justify algorithm now more evenly distributes leftover spaces,
-      resulting in a more symmetric justification.  It is still not perfect, but
-      this will never be entirely perfect, as we are dealing in fixed-width
-      space characters
+    - Much of the custom code in the justify algorithm has been removed and is
+      now relying on mostly on methods found in the  JavaScript standard
+      library.
+- The justify algorithm now more evenly inserts spaces, resulting in a more
+  symmetric justification.  It will never be quite perfect, as we are dealing in
+  fixed-width space characters, but there may be a tiny bit more room for
+  improvements in the future.
 - Major code cleanup
+- Fixed a bug where justification could be incorrect if original text contained
+  words that were spaced apart with varying amounts of space characters.
 
 ## v0.3.0
 
