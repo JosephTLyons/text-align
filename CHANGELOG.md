@@ -1,9 +1,11 @@
 ## v0.4.0
-- Massive efficiency improvements.  Line deletions and insertions are no longer
-  based on cursor movements, instead, we are dealing directly with the text
-  buffer.  Many trivial functions have been removed and the code inside of them
-  has been moved to the calling functions, to reduce trivially passing items
-  around.
+- Massive efficiency improvements.  
+    - List speedup improvements
+    - Line deletions and insertions are no longer based on cursor movements,
+      instead, we are dealing directly with the text buffer.  
+    - Many trivial functions have been removed and the code inside of them has
+      been moved to the calling functions, to reduce trivially passing items
+    - Justified algorithm ??
 - Major code cleanup
 
 ## v0.3.0
