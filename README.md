@@ -48,7 +48,6 @@ the editor and the Preferred Line Length setting.
 
 ## Bugs:
 
-- Don't select text if it wasn't adjusted (too long or 0 length)
 * Not working with certain elements in code files (like ending brackets and
   braces), however, I cannot imagine anyone using this package to manipulate
   code.  At any rate, I will try to fix this.
