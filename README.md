@@ -25,6 +25,7 @@ the editor and the Preferred Line Length setting.
 
 ## TODO:
 
+- Fix current bugs
 - Improvements have been made to the justification algorithm to make it
   distribute spaces more evenly, but I would like to make it even visually
   symmetric.  Currently, we insert spaces as equally as possible, but there are
@@ -44,10 +45,10 @@ the editor and the Preferred Line Length setting.
   JavaScript, so I'm sure there are places where improvements can be made to
   speed up the code.  I absolutely welcome any pull requests that might lead to
   more efficient solutions.
-- Don't select text if it wasn't adjusted (too long or 0 length)
 
 ## Bugs:
 
+- Don't select text if it wasn't adjusted (too long or 0 length)
 * Not working with certain elements in code files (like ending brackets and
   braces), however, I cannot imagine anyone using this package to manipulate
   code.  At any rate, I will try to fix this.
