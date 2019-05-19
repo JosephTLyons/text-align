@@ -5,6 +5,7 @@
       instead, we are dealing directly with the text buffer.  
     - Many trivial functions have been removed and the code inside of them has
       been moved to the calling functions, to reduce trivially passing items
+      around.
     - Justified algorithm ??
 - Major code cleanup
 
