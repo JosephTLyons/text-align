@@ -1,7 +1,9 @@
 ## v0.4.0
 - Massive efficiency improvements.  Line deletions and insertions are no longer
   based on cursor movements, instead, we are dealing directly with the text
-  buffer.
+  buffer.  Many trivial functions have been removed and the code inside of them
+  has been moved to the calling functions, to reduce trivially passing items
+  around.
 - Major code cleanup
 
 ## v0.3.0
