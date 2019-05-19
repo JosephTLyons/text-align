@@ -10,10 +10,10 @@ the editor and the Preferred Line Length setting.
 
 ![Action](./misc/text-align.gif)
 
-## Description:
+## Intended Use:
 
 * This package aims to be useful when aligning items in documentation or
-  plaintext files, but you may find other uses for it.
+  any other text files, but you may find other uses for it.
 
 ## Rules
 
@@ -23,8 +23,16 @@ the editor and the Preferred Line Length setting.
 * Any line exceeding the Preferred Line Length setting will be ignored as well
   as blank lines.
 
-## Future Features:
+## TODO:
 
+- Improvements have been made to the justification algorithm to make it
+  distribute spaces more evenly, but I would like to make it even visually
+  symmetric.  Currently, we insert spaces as equally as possible, but there are
+  cases where there are leftover spaces.  Its these cases that may need a little
+  work.  Currently, we are just adding them to the left and right side, working
+  our way in, but it would be better to start off in the center, then add them
+  to the left and right sides, radiating outward.  That is the goal for the next
+  release.
 * Add a de-justify command (possibly).  Currently, left/center/right aligning
   is easy to fix, since spacing is only added around the text and the user can
   simply just toggle another alignment command.  However, justify can't be fixed
@@ -32,29 +40,14 @@ the editor and the Preferred Line Length setting.
   isn't possible or if the undo is too far back in the undo history.  This means
   it might make sense to add a de-justify algorithm, although I'll need to think
   about this for a bit.
-
-## Bugs:
-
-* Not working with certain elements in code files (like ending brackets and
-  braces), however, I cannot imagine anyone using this package to manipulate
-  code.  At any rate, I will try to fix this.
-
-## TODO:
-
-* Currently, the `justify` algorithm does its best to evenly distribute spaces
-  between words in a line, but then any leftover spaces will get places into the
-  leftmost spaces and slowly work their way towards the right.  This was just my
-  initial solution to get the package out, but I realize that this left-heavy
-  space placement is a bit unappealing in its asymmetry.  I'd like to work on it
-  so that it evenly places spaces on the left side of a row, on the right side,
-  and in the center.
 * Any extra micro-optimizations.  I'm not too familiar with the Atom API or
   JavaScript, so I'm sure there are places where improvements can be made to
   speed up the code.  I absolutely welcome any pull requests that might lead to
   more efficient solutions.
 - Don't select text if it wasn't adjusted (too long or 0 length)
 
-## Notes:
+## Bugs:
 
-* You will not find v0.1.0 at all.  v0.1.0 relates to an earlier version of this
-  package called `center-align` and is no longer published.
+* Not working with certain elements in code files (like ending brackets and
+  braces), however, I cannot imagine anyone using this package to manipulate
+  code.  At any rate, I will try to fix this.
