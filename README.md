@@ -12,8 +12,11 @@ the editor and the Preferred Line Length setting.
 
 ## Description:
 
-* This package aims to be useful when aligning items in academic papers, but you
-  may find other uses for it.
+* This package aims to be useful when aligning items in documentation or
+  plaintext files, but you may find other uses for it.
+
+## Rules
+
 * If no selection is made, text on the line of the cursor is aligned.  
 * If a selection is made, all lines of text containing the selection
   will be aligned.
@@ -26,9 +29,9 @@ the editor and the Preferred Line Length setting.
   is easy to fix, since spacing is only added around the text and the user can
   simply just toggle another alignment command.  However, justify can't be fixed
   without using undo, which means that it will be stuck that way if undoing
-  isn't possible or if the undo is too far back in the undo history.  So this
-  means it might make sense to add a de-justify algorithm, although I'll need to
-  think about this for a bit.
+  isn't possible or if the undo is too far back in the undo history.  This means
+  it might make sense to add a de-justify algorithm, although I'll need to think
+  about this for a bit.
 
 ## Bugs:
 
@@ -45,12 +48,10 @@ the editor and the Preferred Line Length setting.
   space placement is a bit unappealing in its asymmetry.  I'd like to work on it
   so that it evenly places spaces on the left side of a row, on the right side,
   and in the center.
-* Work on efficiency of algorithms - these algorithms are fairly slow on larger
-  chunks of text, this has a lot to do with the implementation and the
-  refactoring.  I did to make the code more readable.  Passing around large
-  objects from function to function for each line of text might be the culprit.  
-  I absolutely welcome any pull requests that might lead to more efficient
-  solutions.
+* Any extra micro-optimizations.  I'm not too familiar with the Atom API or
+  JavaScript, so I'm sure there are places where improvements can be made to
+  speed up the code.  I absolutely welcome any pull requests that might lead to
+  more efficient solutions.
 
 ## Notes:
 
