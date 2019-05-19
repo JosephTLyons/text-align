@@ -7,8 +7,7 @@
       been moved to the calling functions, to reduce trivially passing items
       around.
     - Much of the custom code in the justify algorithm has been removed and is
-      now relying on mostly on methods found in the  JavaScript standard
-      library.
+      now relying mostly on methods found in the  JavaScript standard library.
 - The justify algorithm now more evenly inserts spaces, resulting in a more
   symmetric justification.  It will never be quite perfect, as we are dealing in
   fixed-width space characters, but there may be a tiny bit more room for
