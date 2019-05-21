@@ -19,6 +19,11 @@
       {
         "label": "Justify",
         "command": "justify:toggle"
+      },
+
+      {
+        "label": "Dejustify",
+        "command": "dejustify:toggle"
       }
     ]
   },
@@ -47,6 +52,11 @@
             {
               "label": "Justify",
               "command": "justify:toggle"
+            },
+
+            {
+              "label": "Dejustify",
+              "command": "dejustify:toggle"
             }
           ]
         }
