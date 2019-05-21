@@ -1,3 +1,8 @@
+## v0.5.0
+- De-justify command added (remove from readme)
+- Justify is a bit more even in its distribution of leftover spaces to insert
+- 
+
 ## v0.4.0
 - Massive efficiency improvements.  All alignments run 5x - 8x faster than the
   previous release, this is more obvious on larger files.
