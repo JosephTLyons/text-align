@@ -23,7 +23,7 @@ the editor and the Preferred Line Length setting.
 - `justify`
 - `dejustify`
 
-## Rules
+## Rules:
 
 * If no selection is made, text on the line of the cursor is aligned.  
 * If a selection is made, all lines of text containing the selection
