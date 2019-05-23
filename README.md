@@ -35,6 +35,7 @@ the editor and the Preferred Line Length setting.
 
 ## TODO:
 
+- Fix up all bullet points in the CHANGELOG.md
 - Fix current bugs
 - Give the option to insert one or two spaces between punctuation and the next
   word, when running the dejustify algorithm (?)
