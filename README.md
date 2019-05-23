@@ -31,7 +31,7 @@ the editor and the Preferred Line Length setting.
 - Any blank lines will be ignored.
 * Any lines exceeding the Preferred Line Length setting will be ignored when
   running any of the following commands:`left-align`, `center-align`,
-  `right-align`, or `justify:toggle`.
+  `right-align`, or `justify:`.  
 
 ## TODO:
 
