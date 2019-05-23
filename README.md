@@ -37,6 +37,7 @@ the editor and the Preferred Line Length setting.
 
 - Fix up all bullet points in the CHANGELOG.md
 - Fix current bugs
+- Give option to align last line in a paragraph or not
 - Give the option to insert one or two spaces between punctuation and the next
   word, when running the dejustify algorithm (?)
 - I would like to write the justification algorithm to insert the leftover
