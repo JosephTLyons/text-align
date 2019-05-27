@@ -1,8 +1,9 @@
 ## v0.5.0
-- De-justify command added (remove from readme)
-- Justify is a bit more even in its distribution of leftover spaces to insert
-- DO: Last line no longer justifies (like in word)
-- DO: code now works (test and then remove from readme)
+- De-justify command added.  For any two words, this command simply replaces any
+  amount of spaces between them, with one space, using RegEx.
+- Justify is a bit more even in its distribution of leftover spaces to insert.
+- As of v0.4.0, since we are now using the text buffer, the alignment algorithms
+  seem to be working with code files as well, but this isn't entirely verified.
 
 ## v0.4.0
 - Massive efficiency improvements.  All alignments run 5x - 8x faster than the
