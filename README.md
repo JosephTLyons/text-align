@@ -1,4 +1,4 @@
-# Text Align
+# text-align
 
 [![text-align download badge](https://badgen.net/apm/dl/text-align)](https://atom.io/packages/text-align)
 
