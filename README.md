@@ -13,7 +13,7 @@ the editor and the Preferred Line Length setting.
 ## Intended Use:
 
 - This package aims to be useful when aligning items in documentation or any
-  other text files, but you may find other uses for it.
+  other plain text files, but you may find other uses for it.
 
 ## Commands Available:
 
@@ -26,9 +26,11 @@ the editor and the Preferred Line Length setting.
 ## Rules:
 
 - If no selection is made, text on the line of the cursor is aligned.  
-- If a selection is made, all lines of text containing the selection
-  will be aligned.
+- If a selection is made, all lines of text within the selection range will be
+  aligned.
 - Any blank lines will be ignored.
 - Any lines exceeding the Preferred Line Length setting will be ignored when
   running any of the following commands:`left-align`, `center-align`,
-  `right-align`, or `justify`.  Note, `dejustify` does not follow this rule.
+  `right-align`, or `justify`.  
+    - Note: `dejustify` does not follow this rule and will still process lines
+      of text that are longer than the Preferred Line Length setting.
