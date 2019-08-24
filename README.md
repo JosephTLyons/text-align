@@ -1,6 +1,10 @@
 # text-align
 
+[![text-align version badge](https://badgen.net/apm/version/text-align)](https://atom.io/packages/text-align)
+
 [![text-align download badge](https://badgen.net/apm/dl/text-align)](https://atom.io/packages/text-align)
+
+[![text-align stars badge](https://badgen.net/apm/stars/text-align)](https://atom.io/packages/text-align)
 
 An [Atom](https://atom.io) text editor package that supports left aligning,
 centering, right aligning, and justification of text between the left side of
