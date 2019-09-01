@@ -1,4 +1,4 @@
-## v0.5.1
+## v0.5.2
 - Removed an accidental line of code that broke the justification algorithm.
 - Added a new rule to the justification algorithm.  In v0.5.1, it was added to
   not justify the last line of a paragraph.  The algorithm knows it is the end
