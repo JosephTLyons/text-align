@@ -1,3 +1,10 @@
+## v0.6.0
+- When justifying text, normal text editors do not justify the last line of a
+  paragraph, as it can look unnatural, especially with shorter lines.  The
+  de-justify algorithm no longer justify the last line of a paragraph
+    - Note: the end of a paragraph is determined by checking if the line after
+      itself is blank.
+
 ## v0.5.0
 - De-justify command added.  For any two words, this command simply replaces any
   amount of spaces between them, with one space, using RegEx.
