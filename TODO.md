@@ -1,6 +1,5 @@
 # TODO:
 
-- Update Atom Poem gif with most recent version
 - Give option to justify last line in a paragraph or not
 - Give the option to insert one or two spaces between punctuation and the next
   word, when running the dejustify algorithm (?)
