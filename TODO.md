@@ -1,6 +1,9 @@
 # TODO:
 
-- Give option to justify last line in a paragraph or not
+- Respect indentations on the beginning of a paragraph?
+- Use indentations on the beginning of a paragraph as an alternative indicator
+  of a new paragraph when skipping the last line in the previous paragraph for
+  justification.
 - Give the option to insert one or two spaces between punctuation and the next
   word, when running the dejustify algorithm (?)
 - I would like to write the justification algorithm to insert the leftover
