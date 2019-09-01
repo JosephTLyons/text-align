@@ -6,6 +6,8 @@
 
 [![text-align stars badge](https://badgen.net/apm/stars/text-align)](https://atom.io/packages/text-align)
 
+[![text-align forks badge](https://badgen.net/github/forks/josephtlyons/text-align)](https://atom.io/packages/text-align)
+
 An [Atom](https://atom.io) text editor package that supports left aligning,
 centering, right aligning, and justification of text between the left side of
 the editor and the Preferred Line Length setting.
