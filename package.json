@@ -10,7 +10,10 @@
     "align",
     "justify",
     "text",
-    "manipulation"
+    "alignment",
+    "manipulation",
+    "documentation",
+    "tools"
   ],
   "repository": "https://github.com/JosephTLyons/text-align",
   "license": "MIT",
