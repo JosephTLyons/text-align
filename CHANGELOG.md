@@ -1,4 +1,13 @@
 ## v0.5.1
+- Removed an accidental line of code that broke the justification algorithm.
+- Added a new rule to the justification algorithm.  In v0.5.1, it was added to
+  not justify the last line of a paragraph.  The algorithm knows it is the end
+  of a paragraph by checking to see if there is a blank line after itself. This
+  works, but for the very last paragraph in a file, there might not be a blank
+  line after it to indicate that the end of itself.  A rule has been added to
+  address this.
+
+## v0.5.1
 - When justifying text, normal text editors do not justify the last line of a
   paragraph, as it can look unnatural, especially with shorter lines.  The
   de-justify algorithm no longer justify the last line of a paragraph
