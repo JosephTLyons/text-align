@@ -1,4 +1,4 @@
-## v0.6.0
+## v0.5.1
 - When justifying text, normal text editors do not justify the last line of a
   paragraph, as it can look unnatural, especially with shorter lines.  The
   de-justify algorithm no longer justify the last line of a paragraph
