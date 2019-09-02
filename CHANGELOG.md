@@ -4,8 +4,8 @@
   not justify the last line of a paragraph.  The algorithm knows it is the end
   of a paragraph by checking to see if there is a blank line after itself. This
   works, but for the very last paragraph in a file, there might not be a blank
-  line after it to indicate that the end of itself.  A rule has been added to
-  address this.
+  line after it to indicate the end of itself.  A rule has been added to address
+  this.
 
 ## v0.5.1
 - When justifying text, normal text editors do not justify the last line of a
