@@ -4,8 +4,6 @@
 - Use indentations on the beginning of a paragraph as an alternative indicator
   of a new paragraph when skipping the last line in the previous paragraph for
   justification.
-- Give the option to insert one or two spaces between punctuation and the next
-  word, when running the dejustify algorithm (?)
 - I would like to write the justification algorithm to insert the leftover
   spaces in a binary fashion: insert in the middle, then splitting the
   difference between the middle and either end of the row, and so on, as this

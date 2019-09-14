@@ -1,4 +1,12 @@
 ## v0.5.3
+- There is now a setting in the package settings that allows a user to decide
+  between using one or two space characters after punctuation, when running the
+  `de-justify` command.  Example:
+
+  ```text
+  Sentence one. Sentence two.
+  Sentence one.  Sentence two.
+  ```
 - Fixed a bug were if a line exceeded the preferred line length and `de-justify`
   is ran, any letters that breach the preferred line length length will be
   duplicated, causing the row to grow.
