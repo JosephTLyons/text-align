@@ -1,3 +1,8 @@
+## v0.5.3
+- Fixed a bug were if a line exceeded the preferred line length and `de-justify`
+  is ran, any letters that breach the preferred line length length will be
+  duplicated, causing the row to grow.
+
 ## v0.5.2
 - Removed an accidental line of code that broke the justification algorithm.
 - Added a new rule to the justification algorithm.  In v0.5.1, it was added to
