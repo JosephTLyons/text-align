@@ -1,13 +1,13 @@
 ## v0.5.3
 - There is now a setting in the package settings that allows a user to decide
   between using one or two space characters after punctuation, when running the
-  `de-justify` command.  Example:
+  `dejustify` command.  Example:
 
   ```text
   Sentence one. Sentence two.
   Sentence one.  Sentence two.
   ```
-- Fixed a bug were if a line exceeded the preferred line length and `de-justify`
+- Fixed a bug were if a line exceeded the preferred line length and `dejustify`
   is ran, any letters that breach the preferred line length length will be
   duplicated, causing the row to grow.
 
@@ -23,13 +23,13 @@
 ## v0.5.1
 - When justifying text, normal text editors do not justify the last line of a
   paragraph, as it can look unnatural, especially with shorter lines.  The
-  de-justify algorithm no longer justify the last line of a paragraph
+  `dejustify` command no longer justifies the last line of a paragraph
     - Note: the end of a paragraph is determined by checking if the line after
       itself is blank.
 
 ## v0.5.0
-- De-justify command added.  For any two words, this command simply replaces any
-  amount of spaces between them, with one space, using RegEx.
+- `dejustify` command added.  For any two words, this command simply replaces
+  any amount of spaces between them, with one space, using RegEx.
 - Justify is a bit more even in its distribution of leftover spaces to insert.
 - As of v0.4.0, since we are now using the text buffer, the alignment algorithms
   seem to be working with code files as well, but this isn't entirely verified.
