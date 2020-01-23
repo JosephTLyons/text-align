@@ -1,66 +1,58 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Left Align",
-        "command": "left-align:toggle"
-      },
-
-      {
-        "label": "Center Align",
-        "command": "center-align:toggle"
-      },
-
-      {
-        "label": "Right Align",
-        "command": "right-align:toggle"
-      },
-
-      {
-        "label": "Justify",
-        "command": "justify:toggle"
-      },
-
-      {
-        "label": "Dejustify",
-        "command": "dejustify:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "Text Align",
-          "submenu": [
+    "context-menu": {
+        "atom-text-editor": [
             {
-              "label": "Left Align",
-              "command": "left-align:toggle"
+                "label": "Left Align",
+                "command": "left-align:toggle"
             },
-
             {
-              "label": "Center Align",
-              "command": "center-align:toggle"
+                "label": "Center Align",
+                "command": "center-align:toggle"
             },
-
             {
-              "label": "Right Align",
-              "command": "right-align:toggle"
+                "label": "Right Align",
+                "command": "right-align:toggle"
             },
-
             {
-              "label": "Justify",
-              "command": "justify:toggle"
+                "label": "Justify",
+                "command": "justify:toggle"
             },
-
             {
-              "label": "Dejustify",
-              "command": "dejustify:toggle"
+                "label": "Dejustify",
+                "command": "dejustify:toggle"
             }
-          ]
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Text Align",
+                    "submenu": [
+                        {
+                            "label": "Left Align",
+                            "command": "left-align:toggle"
+                        },
+                        {
+                            "label": "Center Align",
+                            "command": "center-align:toggle"
+                        },
+                        {
+                            "label": "Right Align",
+                            "command": "right-align:toggle"
+                        },
+                        {
+                            "label": "Justify",
+                            "command": "justify:toggle"
+                        },
+                        {
+                            "label": "Dejustify",
+                            "command": "dejustify:toggle"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
